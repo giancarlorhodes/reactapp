@@ -1,17 +1,35 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+
+import {Route, Switch} from 'react-router-dom';
+import Home from "./Components/home/Home";
+import Speakers from "./Components/speakers/Speakers";
+import Login from "./Components/common/Login";
+import RouteNotFound from "./RouteNotFound";
+
+
 
 class Routes extends Component {
+    constructor(props){
+        super(props);
+        this.handler = this.handler.bind(this);
+    }
+
+    handler() {
+        this.props.action();
+    }
+
+
+
     render() {
         return (
-            <Router>
+            <div>
                 <Switch>
-                    <Route exact path="/" render={() => <h3>Home</h3>} />
-                    <Route exact path="/route1" render={() => <h3>This is Route1</h3>} />
-                    <Route exact path="/route2" render={() => <h1>This is Route2</h1>} />
-                    <Route render={() => (<h1>Route Not Found</h1>)} />
+                    <Route exact path="/" component={Home}/>
+                    <Route exact path="/speakers" component={Speakers}/>
+                    <Route exact path="/login" component={Login}/>
+                    <Route render={() => <RouteNotFound/>}/>
                 </Switch>
-            </Router>
+            </div>
         );
     }
 }
@@ -20,3 +38,4 @@ Routes.propTypes = {};
 Routes.defaultProps = {};
 
 export default Routes;
+
