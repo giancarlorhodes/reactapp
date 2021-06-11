@@ -35405,6 +35405,7 @@ var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_module
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// this is the entry point of our bundled by webpack JavaScript web dev server
 _reactDom2.default.render(_react2.default.createElement(
     _reactRouterDom.BrowserRouter,
     { history: _reactRouter.browserHistory },
