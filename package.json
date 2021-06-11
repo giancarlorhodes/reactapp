@@ -2,7 +2,7 @@
   "name": "reactapp",
   "version": "1.0.0",
   "description": "",
-  "main": "HelloWorld.js",
+  "main": "./src/HelloWorld.js",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -16,7 +16,8 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
     "webpack-cli": "^4.7.2",
@@ -24,7 +25,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack serve --hot"
+    "start:dev": "webpack serve --hot --config webpack.config.js",
+    "start": "webpack serve --hot --config webpack.config.js"
   },
   "author": "",
   "license": "ISC"
