@@ -1,0 +1,16 @@
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\bin\Debug\netcoreapp2.1\WebApp.deps.json
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\bin\Debug\netcoreapp2.1\WebApp.runtimeconfig.json
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\bin\Debug\netcoreapp2.1\WebApp.runtimeconfig.dev.json
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\bin\Debug\netcoreapp2.1\WebApp.dll
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\bin\Debug\netcoreapp2.1\WebApp.pdb
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.csprojAssemblyReference.cache
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.AssemblyInfoInputs.cache
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.AssemblyInfo.cs
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.csproj.CoreCompileInputs.cache
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.RazorAssemblyInfo.cache
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.RazorAssemblyInfo.cs
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.RazorTargetAssemblyInfo.cache
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.dll
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.pdb
+D:\GitHub\giancarlorhodes\reactapp\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.genruntimeconfig.cache
